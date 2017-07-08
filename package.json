@@ -1,0 +1,52 @@
+{
+  "name": "memco",
+  "version": "0.0.0",
+  "description": "Specific memory computation.",
+  "main": "memco.js",
+  "support": "memco.support.js",
+  "deploy": "memco.deploy.js",
+  "browser": "memco.deploy.js",
+  "scripts": {
+    "build": "gulp && webpack --progress --display-modules",
+    "test": "mocha memco-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/memco.git"
+  },
+  "keywords": [
+    "specific",
+    "memory",
+    "computation",
+    "memco"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/memco/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/memco#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "depher": "^0.35.0",
+    "harden": "^0.22.0",
+    "raze": "^0.32.0",
+    "shft": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-debug": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^3.1.0"
+  }
+}

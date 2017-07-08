@@ -1,0 +1,39 @@
+{
+  "name": "memco",
+  "version": "0.0.0",
+  "description": "Specific memory computation.",
+  "main": "memco.deploy.js",
+  "support": "memco.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "specific",
+    "memory",
+    "computation",
+    "memco"
+  ],
+  "homepage": "https://github.com/volkovasystems/memco",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "shft": "^0.3.0",
+    "raze": "^0.32.0",
+    "arid": "^0.28.0",
+    "doubt": "^0.29.0",
+    "arkount": "^0.10.0",
+    "wichevr": "^0.12.0"
+  },
+  "dependencies": {
+    "depher": "^0.35.0",
+    "harden": "^0.22.0",
+    "raze": "^0.32.0",
+    "shft": "^0.3.0"
+  }
+}
